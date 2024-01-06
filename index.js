@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (yesButton && sadImage) {
         yesButton.addEventListener('click', function () {
-            sadImage.src = "./assets/happybear.png"; // Adjust the path as needed
+            sadImage.src = "../assets/happybear.png"; // Adjust the path as needed
             sadImage.alt = "happy"; // Update the alt attribute if needed
         });
     } else {
